@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>11:11 Eternal Love | Deepjoy & Sreenanda</title>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Playfair+Display:wght@700&family=Poppins:wght@300;500&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.9.3/dist/confetti.browser.min.js"></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <div id="heart-container"></div>
+
+    <div id="countdownPage" class="page active">
+        <div class="content">
+            <h1 id="liveClock" class="clock">00:00 AM</h1>
+            <p class="magic-text">Waiting for our magical 11:11 moment ✨</p>
+            <button id="enterBtn" class="enter-button">Enter My Heart 💞</button>
+        </div>
+    </div>
+
+    <div id="proposalPage" class="page hidden">
+        <section class="section greeting">
+            <h1>My Beautiful Junnu ❤️</h1>
+            <p class="big-love">I Love You Wufy... Eternally</p>
+            <p class="from">Deepjoy & Sreenanda ♾️</p>
+            <div class="scroll-indicator">Scroll down for a surprise... ↓</div>
+        </section>
+
+        <section class="section poem">
+            <div class="poem-card">
+                <h2>জুন্নু — আমার চিরন্তন ভালোবাসা 💞</h2>
+                <div class="poem-text">
+                    জুন্নু,<br>এই অসীম ব্রহ্মাণ্ডে কোটি তারা আছে,<br>কিন্তু আমার আকাশে আলো জ্বালায় শুধু তোমার চোখ ✨🌙<br><br>
+                    তোমার একটুখানি হাসিতে আমার জীবনের সব ক্লান্তি শান্তিতে রূপ নেয় 😊💓<br><br>
+                    তুমি আমার ওয়াইফি, শুধু পরিচয়ে নয়— তুমি আমার আশ্রয়, আমার ভরসা, আমার “সব ঠিক হয়ে যাবে” অনুভূতি 🫶💖<br><br>
+                    তোমার হাতটা ধরলে সময় থেমে দাঁড়ায়, আর হৃদয়টা নিশ্চিত হয়ে বলে— “এই মানুষটার সাথেই সব জীবন কাটাতে চাই” ♾️💓<br><br>
+                    I love you, my beautiful wify Junnu😍💋<br>আজ, কাল, আর সব জন্মে… শুধু তুমি 🤍✨
+                </div>
+            </div>
+        </section>
+
+        <section class="section proposal">
+            <div class="proposal-box">
+                <h1>Junnu, My Eternal Love...</h1>
+                <h2 class="proposal-text">Will You Marry Me? 💍❤️</h2>
+                <div class="btn-group">
+                    <button id="yesBtn">Yes Forever ❤️</button>
+                    <button id="noBtn">No (Can't! 😘)</button>
+                </div>
+                <div id="loveNote" class="hidden-note">
+                    <h2>YES!!! 🎉💍✨</h2>
+                    <p>You've made me the happiest person alive! I love you more than anything, my Wufy ❤️</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="section game">
+            <h2>Catch My Falling Hearts ❤️</h2>
+            <p>Catch 10 hearts to win!</p>
+            <canvas id="gameCanvas"></canvas>
+            <p id="score">Score: 0 / 10</p>
+            <button id="winBtn" class="hidden-note">You Won My Heart! 💞</button>
+        </section>
+    </div>
+
+    <audio id="bgMusic" loop>
+        <source src="I love you (Full song) Bodyguard feat. Salman khan, Kareena Kapoor - T-Series.mp3" type="audio/mpeg">
+    </audio>
+    <button id="musicBtn" class="music-toggle">🔊 Play Music</button>
+
+    <script src="script.js"></script>
+</body>
+</html>
